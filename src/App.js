@@ -1,20 +1,30 @@
 
 import './App.css';
-import Home from './routes/Home';
-import About from './routes/About';
-import Contact from './routes/Contact';
-import Project from './routes/Project';
-import { Route,Routes } from 'react-router-dom';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Navbar from './components/Navbar';
+import ImageSlider from './components/ImageSlider';
+import AboutUs from './components/AboutUs';
+import Hero from './components/Hero';
+import Vision from './components/Vision';
+import Services from './components/Services';
+import Footer from './components/Footer'
+import Mission from './components/Mission';
+
+
 
 function App() {
   return (
     <>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/About" element={<About/>} />
-      <Route path="/Contact" element={<Contact/>} />
-      <Route path="/Project" element={<Project/>} />
-    </Routes>
+    <Navbar/>
+    <Hero/>
+    <ImageSlider/>
+    <Mission/>
+    <AboutUs/>
+    <Vision/>
+    <Services/>
+    <Footer/>
     
     </>
   );

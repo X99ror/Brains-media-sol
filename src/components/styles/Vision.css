@@ -1,0 +1,80 @@
+.vision-section {
+    background: #000;
+    padding: 60px 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vision-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .vision-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .vision-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:#fff;
+  }
+  
+  .vision-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .vision-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .vision-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .vision-content {
+      flex-direction: column;
+    }
+  
+    .vision-text {
+      max-width: 100%;
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .vision-image {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .vision-text h2 {
+      font-size: 2rem;
+    }
+  
+    .vision-text p {
+      font-size: 1rem;
+    }
+  }
+  

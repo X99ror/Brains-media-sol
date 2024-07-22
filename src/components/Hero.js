@@ -1,7 +1,7 @@
 import "./styles/Hero.css"
 import React from 'react'
-import IntroImg from "../assets/intro3.jpg"
-import { Link } from "react-router-dom"
+import IntroImg from "../assets/intro.jpg"
+
 
 const Hero = () => {
   return (
@@ -11,14 +11,11 @@ const Hero = () => {
 
         </div>
         <div className="content">
-          <p>Hi,  I am Himanshu Raj</p>
-        <h1>This is my portfolio</h1>
+          
+        <h1>"At Brains Media Solutions, we transform your ideas into dynamic digital experiences."</h1>
         
         
-        <Link to="/Project" 
-          className="btn">Projects</Link>
-          <Link to="/Contact" 
-          className="btn btn-light">Contact</Link>
+       
           
         
         </div>
